@@ -22,3 +22,9 @@ Memory
 Verification
 =
 Reliable AI System
+
+
+It's not that the model has more context at inference time.
+It's that it has learned richer statistical relationships during training.
+
+
