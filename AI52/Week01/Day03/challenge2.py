@@ -17,7 +17,7 @@ from ollama import ChatResponse
 query = "Explain Kubernetes like I'm a Java developer."
 messagePayload = {'role':'user', 'content':query}
 
-response: ChatResponse = chat(model='gemma4:12b', messages=[messagePayload])
+response: ChatResponse = chat(model='gemma3:4b', messages=[messagePayload])
 
 
 print(response.message.content)
