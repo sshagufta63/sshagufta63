@@ -1,0 +1,20 @@
+Challenge 2 – Choose the Right Temperature
+
+For each task, decide:
+
+Low
+Medium
+High
+
+Tasks:
+
+Generate SQL : LOW  less creativity needed only the correct ans is expected
+Explain Java exceptions : Medium can use user understandable lang so creativity would be needed but alongwith it should stick to the concept
+Write a children's story : High can be as creative as possible
+Generate Kubernetes YAML : LOw subtle answer is needed.
+Brainstorm startup ideas : High, various aspects are needed to be thought through
+Summarize meeting notes : Medium Audience understanadble context needed
+Generate unit tests : High, that is because we need to brainstorm on several scenarios the code can react to.
+Write a poem: High creativity is needed
+
+Also explain why.
