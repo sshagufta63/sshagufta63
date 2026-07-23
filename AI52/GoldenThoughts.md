@@ -36,3 +36,29 @@ PROMPT:
     Context
     Constraint
     Output format
+
+Day 1
+
+Resource Management
+
+Too many tokens
+        ↓
+Higher cost
+Higher latency
+Context overflow
+Day 2
+
+Behavior Control
+
+Temperature
+        ↓
+Consistency vs Creativity
+Day 3
+
+Reliability
+
+Hallucinations
+        ↓
+Verification
+Guardrails
+Validation
