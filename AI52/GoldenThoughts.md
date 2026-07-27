@@ -96,3 +96,20 @@ Temperature → application controls behaviour.
 Hallucinations → application validates outputs.
 System prompts → application defines policy.
 AI ecosystem → application chooses the right components.
+
+
+
+Model
+↓
+
+Decides WHAT information it needs.
+
+Application
+↓
+
+Decides WHETHER it is allowed.
+
+Tool
+↓
+
+Actually retrieves or performs the action.
