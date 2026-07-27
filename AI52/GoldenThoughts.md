@@ -62,3 +62,37 @@ Hallucinations
 Verification
 Guardrails
 Validation
+
+
+
+User
+   │
+Application
+   │
+├── System Prompt
+├── Conversation History
+├── Temperature
+├── Model Selection
+│
+API / Runtime
+│
+Model
+│
+Response
+│
+Application Validation
+│
+User
+
+
+If I had to summarise the entire week in one sentence, it would be:
+
+LLMs generate responses; applications build reliable systems.
+
+Everything we covered supports that idea:
+
+Tokens → application manages resources.
+Temperature → application controls behaviour.
+Hallucinations → application validates outputs.
+System prompts → application defines policy.
+AI ecosystem → application chooses the right components.
