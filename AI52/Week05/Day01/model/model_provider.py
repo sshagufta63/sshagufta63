@@ -1,13 +1,8 @@
-from ollama import chat
-from ollama import ChatResponse
+from ollama import OllamaProvider
 
-def MODEL_PROVIDER(prompt, MODEL_IN_USE):    
-    prompts =[]
-    try:
-        #for prompt in prompts:
-        # print(prompt ,": ")
-            messagePayload = {'role':'user', 'content': prompt}
-            response: ChatResponse = chat(model=MODEL_IN_USE, messages=[messagePayload])
-            print(response.message.content)
-    except:
-        print("Unable to get a response from the AI model.\nPlease try again.")
+def get_provider(provider_name: str, model_name: str):
+
+    if provider_name == "ollama":
+        return OllamaProvider(model_name)
+
+    raise ValueError(f"Unsupported AI provider: {provider_name}")

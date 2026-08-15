@@ -6,7 +6,7 @@
 
 MODEL_IN_USE='gemma3:4b'
 
-import api.api_interface as api
+import Week05.Day01.model.ai_provider as api
 
 print("Ask me something.. ")
 input_query = input()
