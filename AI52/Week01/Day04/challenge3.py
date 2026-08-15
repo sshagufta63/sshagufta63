@@ -28,8 +28,6 @@ query = '''Review a BigQuery SQL query for:
  performance
  cost optimization
 
- The query itself can be simple.
-
 
  SELECT *
  FROM customer
